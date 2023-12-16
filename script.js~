@@ -1,0 +1,21 @@
+function isactive(className){
+    const sections =document.getElementsByClassName(className);
+    for(const section of sections){
+	const element = section.getBoundingClientRect();
+	if(element.top>=0&& element.bottom<=(window.innerHeight || document.documentElement.clientHeight))
+	    return true;
+    }
+    return false;
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  console.log('DOM content loaded.');
+
+  window.addEventListener('load', function () {
+    console.log('Page has finished loading.');
+  });
+
+  window.addEventListener('scroll', function () {
+    console.log('Page is being scrolled.');
+  });
+});
