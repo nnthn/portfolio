@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    color: #ffff;
+   
 }
 main{
     padding:0 !important;
@@ -25,10 +25,21 @@ aside {
     justify-content:center;
     align-items:center;
 }
-
+.socials{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    left:85%;
+}
+.social-images{
+    width: 1.2rem;
+    height:1.2rem;
+    opacity:0.7;
+}
 .sidebar li a{
     text-decoration: none;
-    color:white;
+    
     display:block;
 }
 .content{
@@ -58,21 +69,36 @@ section{
     margin:0 auto;
 }
 
-.sidebar li:hover a,
-.sidebar li:active a{
+.sidebar li:hover a{
     color: #1e88e5;
 }
 .sidebar{
     list-style:none;
+    
 }
 
 .sidebar li a{
     text-decoration: none;
-    color:white;
+    
     display:block;
 }
+.sidebar li{
+    transition: transform 0.2s ease-in-out;
+}
+.sidebar li:hover{
+    transform: translateY(-5px);
+    color: #1e88e5;
+    
+}
+.socials li{
+    transition: transform 0.2s ease-in-out;
+}
+.socials li:hover{
+    transform: translateY(-5px);
+    color: #1e88e5;
+    
+}
 
-.sidebar li:hover a,
 .sidebar li:active a{
      color: #1e88e5;
 }
@@ -83,3 +109,32 @@ section{
 html{
     scroll-behavior:smooth;
 }
+
+@keyframes changeContent{
+    0% {
+        content: "Ananthakrishanan P";
+        transform: translateY(0);
+    }
+    
+     50% {
+        content: "nnthn";
+        transform: translateY(-5px);
+     }
+     
+     
+}
+
+#nnthn::before{
+    content: "Ananthakrishanan P";
+    animation: changeContent 5s ease-in-out infinite;
+    display: inline-block;
+}
+
+.text-container{
+    position:absolute;
+    transition: transform 0.5s ease;
+}
+.animate {
+    transform: translateX(-100%);
+}
+
