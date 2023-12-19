@@ -59,7 +59,7 @@ section{
     margin-bottom:16px;
 }
 .content section p{
-    max-width:700px;
+   
     margin:0 ;
     text-align:justify;
     max-width:50%
@@ -137,4 +137,92 @@ html{
 .animate {
     transform: translateX(-100%);
 }
+.sidebar img{
+    display:none;
+    opacity:0;
+}
 
+@media(max-width:500px){
+    .desig{
+	font-size:1rem;
+    }
+    .heading{
+	font-size:1.8rem;
+    }
+    body{
+	font-size:1rem;
+    }
+    h4{
+	font-size:1rem;
+    }
+    form{
+	width:80%;
+	margin-left: 0 !important;
+    }
+    .sidebar a{
+	display:none;
+    }
+    .sidebar a.shome{
+	background-image: url('./assets/shome.png');
+	background-size: cover;
+	height:1rem;
+	width:1rem;
+        background-position: center;
+        display: block;
+        text-indent: -9999px; 
+    } 
+    .sidebar a.sabout{
+	background-image: url('./assets/sabout.png');
+	background-size: cover;
+	height:1rem;
+	width:1rem;
+        background-position: center;
+        display: block;
+        text-indent: -9999px; 
+    } 
+    .sidebar a.sskills{
+	background-image: url('./assets/sskills.png');
+	background-size: cover;
+	height:1rem;
+	width:1rem;
+        background-position: center;
+        display: block;
+        text-indent: -9999px; 
+	
+    } 
+    .sidebar a.sproject{
+	background-image: url('./assets/sprojects.png');
+	background-size: cover;
+	height:1rem;
+	width:1rem;
+        background-position: center;
+        display: block;
+        text-indent: -9999px; 
+    } 
+    .sidebar a.scontact{
+	background-image: url('./assets/scontact.png');
+	background-size: cover;
+	height:1rem;
+	width:1rem;
+        background-position: center;
+        display: block;
+        text-indent: -9999px; 
+    } 
+    .sidebar li{
+	width:1.5rem;
+	height:1.5rem;
+	padding:1rem;
+	margin-left:1rem;
+    }
+    .social-images{
+	height:1rem;
+	width:1rem;
+
+    }
+    .content section p{
+   
+    margin:0 ;
+    text-align:justify;
+    max-width:70%
+}
+}
