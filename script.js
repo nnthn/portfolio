@@ -89,5 +89,29 @@ document.addEventListener('DOMContentLoaded', function () {
 	    contactel.style.color="white";
 	    projectel.style.color="#1e88e5";
 	}
-  }, 400); // Adjust the interval (in milliseconds) as needed
+    }, 400); // Adjust the interval (in milliseconds) as needed
+    fetch('./projects.csv')
+        .then(function (res) {
+            return res.text();
+        })
+        .then(function (data) {
+            let csvdata = data;
+            const rows = csvdata.split('\n');
+            const header = rows[0].split(',');
+            const projectContainer = document.getElementById('project-items');
+            
+            rows.slice(1).map(function (row) {
+                const values = row.split(',');
+                if (values[0]) {
+                    const projectElement = document.createElement('h4');
+                    projectElement.textContent = values[1];
+		    projectElement.style.fontSize = '1rem';
+		    projectElement.style.fontWeight = 'bold';
+                    projectContainer.appendChild(projectElement);
+                }
+            });
+        })
+        .catch(error => console.error('Error fetching csv:', error));
+    
 });
+

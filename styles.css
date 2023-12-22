@@ -11,8 +11,20 @@ main{
 }
 .heading{
     color: #1e88e5;
+    font-size:3rem;
     
 }
+.about{
+    display:flex !important;
+    flex-direction: column;
+   
+}
+.name{
+    align-self:self-end;
+    margin-right:15vw;
+    margin-top:10vh;
+}
+
 aside {
   top: 50%;
   transform: translateY(-50%);
@@ -110,15 +122,23 @@ html{
     scroll-behavior:smooth;
 }
 
+form{
+    margin-left:0;
+}
 @keyframes changeContent{
     0% {
         content: "Ananthakrishanan P";
         transform: translateY(0);
+
+	
+
+
     }
     
      50% {
         content: "nnthn";
         transform: translateY(-5px);
+
      }
      
      
@@ -128,6 +148,8 @@ html{
     content: "Ananthakrishanan P";
     animation: changeContent 5s ease-in-out infinite;
     display: inline-block;
+    padding-right:.1rem;
+    border-right:2px solid #1e88e5;
 }
 
 .text-container{
