@@ -20,7 +20,7 @@
          <li><a class="shome" id="shome" href="#home" >Home</a></li>
          <li><a class="sabout" id="sabout" href="#about" >About</a></li>
          <li><a class="sskills"  id="sskills" href="#skills">Skills</a></li>
-         <li><a class="sproject" id="sproject" href="#project" >Project</a></li>
+         <li><a class="sproject" id="sproject" href="#project" >Projects</a></li>
          <li><a class="scontact" id="scontact" href="#contact">Contact</a></li>
        </ul>
        <nav>
@@ -54,7 +54,7 @@
 	      </ul>
 	    </section>
             <section id="project" class="project">
-	      <h2 class="heading">Project</h2>
+	      <h2 class="heading">Projects</h2>
 	      <div class="project-items" id="project-items">
 
 	      </div>
@@ -62,10 +62,10 @@
             <section id="contact"class="contact">
 	      <h2 class="heading">Contact</h2>
 	      <h4>ananthakrishnantkp@gmail.com</h4>
-	      <form class="contrast">
+	      <form class="contrast" action="http://localhost:8080/send-email" method="post">
 		<input type="text" id="name" name="name" placeholder="first Name"><br>
 		<input type="text" id="email" name="email" placeholder="email"><br>
-		<textarea name="message" rows="10" cols="10">Enter your message</textarea>
+		<textarea name="message" rows="10" cols="10" placeholder="Enter your message"></textarea>
 		<input type="submit" value="Sent a message">
 	      </form>
 	    </section>

@@ -142,6 +142,7 @@ form{
      }
      
      
+     
 }
 
 #nnthn::before{
@@ -150,6 +151,7 @@ form{
     display: inline-block;
     padding-right:.1rem;
     border-right:2px solid #1e88e5;
+
 }
 
 .text-container{
