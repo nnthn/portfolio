@@ -1,0 +1,232 @@
+body{
+    background-color: #191919;
+    color:white;
+    font-family: "Poppins",sans-serif;
+}
+.content{
+    margin-left: 22vw;
+    scroll-snap-type:y mandatory;
+    overflow-y: scroll;
+    height:100vh;
+}
+section{
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    scroll-snap-align:start;
+    padding-top: 20vh;
+}
+.desig{
+    font-size: 1rem;
+    font-family: "Fira Code", sans-serif;
+}
+.heading{
+    font-size: 3.5em;
+    color:#23BEEF ;
+    margin-top: 0;
+}
+p{
+    font-family: "Fira Code", sans-serif;
+}
+.home > p{
+    width: 40%;
+    text-align: justify;
+}
+.about > p{
+    width: 70%;
+    text-align: justify;
+}
+
+@keyframes changeContent{
+    0% {
+        content: "";
+  
+    }
+    2% {
+        content: "A";
+  
+    }
+    5% {
+        content: "An";
+  
+    }
+    7% {
+        content: "Ana";
+  
+    }
+    10% {
+        content: "Anan";
+  
+    }
+    12% {
+        content: "Anant";
+  
+    }
+    15% {
+        content: "Ananth";
+  
+    }
+    17% {
+        content: "Anantha";
+  
+    }
+    20% {
+        content: "Ananthak";
+  
+    }
+    22% {
+        content: "Ananthakr";
+	
+    }
+    25% {
+        content: "Ananthakri";
+	
+    }
+    27% {
+        content: "Ananthakris";
+	
+    }
+    30% {
+        content: "Ananthakrish";
+	
+    }
+    32% {
+        content: "Ananthakrishn";
+	
+    }
+    35% {
+        content: "Ananthakrishna";
+	
+    }
+    37% {
+        content: "Ananthakrishnan";
+	
+    }
+    
+    55% {
+        content: "Ananthakrishna";
+	
+    }
+    57% {
+        content: "Ananthakrishn";
+	
+    }
+
+    59% {
+        content: "Ananthakrish";
+	
+    }
+    60% {
+        content: "Ananthakris";
+	
+    }
+    62% {
+        content: "Ananthakri";
+	
+    }
+    63% {
+        content: "Ananthakr";
+	
+    }
+    64% {
+        content: "Ananthak";
+	
+    }
+    65% {
+        content: "Anantha";
+	
+    }
+    66% {
+        content: "Ananth";
+	
+    }
+    67% {
+        content: "Anant";
+	
+    }
+    68% {
+        content: "Anan";
+	
+    }
+    69% {
+        content: "Ana";
+	
+    }
+    70% {
+        content: "An";
+	
+    }
+    71% {
+        content: "A";
+	
+    }
+    72% {
+        content: "";
+	
+    }
+    73%{
+	content:"n";
+    }
+    74%{
+	content:"nn";
+    }
+    75%{
+	content:"nnt";
+    }
+    76%{
+	content:"nnth";
+    }
+    77%{
+	content: "nnthn";
+    }
+    90%{
+	content: "nnth";
+	
+    }
+    92%{
+	content: "nnt";
+    }
+    94%{
+	content: "nn";
+    }
+    96%{
+	content:"n";
+    }
+    98%{
+	content: "";
+    }
+    
+    
+}
+
+#nnthn::before{
+    content: "";
+    animation: changeContent 5s ease-in-out infinite;
+    display: inline-block;
+    padding-right:.1rem;
+    border-right:2px solid #1e88e5;
+
+}
+
+.text-container{
+    position:absolute;
+    transition: transform 0.5s ease;
+}
+.animate {
+    transform: translateX(-100%);
+}
+.resume-btn{
+    width: 9rem;
+    border: .1rem solid #1e88e5;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.skill-list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 20rem;
+  height: 7rem;
+}

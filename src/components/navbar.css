@@ -1,0 +1,18 @@
+aside {
+  top: 50%;
+  transform: translateY(-50%);
+  width:15%;
+  position:fixed;
+}
+.sidebar{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.sidebar li a{
+     display:block;
+}
+ .sidebar-list{
+    list-style-type: none;
+}
