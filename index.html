@@ -1,90 +1,17 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@picocss/pico@next/css/pico.min.css"
-/>
-    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <title>nnthn</title>
   </head>
   <body>
-   <aside class="sidebar">
-     <nav>
-       <ul>
-         <li><a class="shome" id="shome" href="#home" >Home</a></li>
-         <li><a class="sabout" id="sabout" href="#about" >About</a></li>
-         <li><a class="sskills"  id="sskills" href="#skills">Skills</a></li>
-         <li><a class="sproject" id="sproject" href="#project" >Projects</a></li>
-         <li><a class="scontact" id="scontact" href="#contact">Contact</a></li>
-       </ul>
-       <nav>
-    </aside>
-
-    <main>
-        <div class="content">
-          <div class="home">
-<section id="home" x>
-	    <h3 class="desig">I'm</h3>
-	    <h2 class="heading">Ananthakrishnan P</h2>
-	    <p>I'm a beginner software developer with a knack for creating cool stuff. I've dabbled in frontend and full-stack development, and I'm also into app development and UI/UX design.</p>
-	  </section>
-	  </div>
-          <section id="about" class="about">
-
-	    <h2 class="heading" id="nnthn"></h2>
-	    <p>I'm a B-Tech Computer Science student from Kerala. I am a beginner software developer, mostly focused in frontend and fullstack development. I am passionate toward developement of websites and webapps. I am also a beginner at other languages as C, Java, Javascript and SQL. I have some knowledge on frameworks on javascript like ReactJS, ExpressJS as well. I have done some projects that include a small Hotel Management app and a Billing app. The Hotel Management app was a web based app and the Billing app was an android app. </p> </section>
-          <section id="skills" class="skills">
-
-	      <h3 class="desig" >My</h3>
-	      <h2 class="heading">Skills</h2>
-	      <h4>Beginer at</h4>
-	      <ul>
-		<li>HTML</li>
-		<li>CSS</li>
-		<li>JavaScript</li>
-		<li>Java</li>
-		<li>C</li>
-		<li>SQL</li>
-	      </ul>
-	    </section>
-            <section id="project" class="project">
-	      <h2 class="heading">Projects</h2>
-	      <div class="project-items" id="project-items">
-
-	      </div>
-	    </section>
-            <section id="contact"class="contact">
-	      <h2 class="heading">Contact</h2>
-	      <h4>ananthakrishnantkp@gmail.com</h4>
-	      <form class="contrast" action="http://localhost:8080/send-email" method="post">
-		<input type="text" id="name" name="name" placeholder="first Name"><br>
-		<input type="text" id="email" name="email" placeholder="email"><br>
-		<textarea name="message" rows="10" cols="10" placeholder="Enter your message"></textarea>
-		<input type="submit" value="Sent a message">
-	      </form>
-	    </section>
-        </div>
-    </main>
-    <aside class="socials"> 
-     <nav>
-       <ul>
-	 <li><a href="https://www.instagram.com/an4nthan?igshid=MTNiYzNiMzkwZA==" target="_blank"><img class="social-images" src="./assets/insta.png" alt="image of instagram icon"></a></li>
-	 <li><a href="https://github.com/nnthn" target="_blank"><img class="social-images" src="./assets/github.png" alt="icon of github"></a></li>
-	 <li><a href="https://www.linkedin.com/in/ananthakrishnan-p-804177221" target="_blank"><img class="social-images" src="./assets/linkedin.png" alt="icon of linkedin"></a></li>
-	 <li><a href="https://wa.me/+918606602466" target="_blank"><img class="social-images" src="./assets/whatsp.png" alt="icon of github"></a></li>
-	
-	 
-       </ul>
-       <nav>
-    </aside>x
-    <script src="script.js">
-    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
-

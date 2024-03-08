@@ -1,0 +1,39 @@
+aside {
+  top: 50%;
+  transform: translateY(-50%);
+  width:15%;
+  position:fixed;
+}
+.sidebar{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.sidebar li a{
+    text-decoration: none;
+    
+    display:block;
+}
+
+.sidebar li:hover a{
+    color: #1e88e5;
+}
+.sidebar{
+    list-style:none;
+    
+}
+
+.sidebar li a{
+    text-decoration: none;
+    
+    display:block;
+}
+.sidebar li{
+    transition: transform 0.2s ease-in-out;
+}
+.sidebar li:hover{
+    transform: translateY(-5px);
+    color: #1e88e5;
+    
+}
