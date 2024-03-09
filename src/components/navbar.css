@@ -19,6 +19,7 @@ aside {
  }
  
  .nav-text{
+     font-family: "Fira Code", sans-serif;
      color:#848484;
      margin-left: .5rem;
  }
@@ -34,12 +35,27 @@ aside {
      align-items: center;
      margin:.5rem 0 .5rem 0;
  }
- 
- .sidebar-a:hover .nav-indicator {
-     background-color: #23BEEF;
-     color:#23BEEF;
-     width: 4rem;
+ a{
+     scroll-behavior:smooth;
  }
- .sidebar-a:hover .nav-text {
-     color:#23BEEF;
- }
+.sidebar-a:hover .nav-indicator {
+  background-color: #23BEEF;
+  color: #23BEEF;
+  width: 4rem;
+}
+
+.sidebar-a:hover .nav-text {
+  color: #23BEEF;
+}
+
+
+li.active .nav-indicator {
+  background-color: #23BEEF;
+  color: #23BEEF;
+  width: 4rem;
+}
+
+li.active .nav-text {
+  color: #23BEEF;
+}
+
