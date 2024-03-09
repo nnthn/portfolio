@@ -5,12 +5,11 @@ export default function Navbar(){
         <aside>
           <nav>
             <ul className="sidebar-list">
-              <li><a className="shome" id="shome" href="#home" >Home</a></li>
-              <li><a className="sabout" id="sabout" href="#about" >About</a></li>
-              <li><a className="sskills"  id="sskills" href="#skills">Skills</a></li>
-              <li><a className="sproject" id="sproject" href="#project" >Projects</a></li>
-              <li><a className="sblogs" id="sblogs" href="#blogs" >Blogs</a></li>
-              <li><a className="scontact" id="scontact" href="#contact">Contact</a></li>
+              <li><a className="shome sidebar-a" id="shome" href="#home" ><span className="nav-indicator"></span><span className="nav-text">Home</span></a></li>
+              <li><a className="sabout sidebar-a" id="sabout" href="#about" ><span className="nav-indicator"></span><span className="nav-text">About</span></a></li>
+              <li><a className="sskills sidebar-a"  id="sskills" href="#skills"><span className="nav-indicator"></span><span className="nav-text">Skills</span></a></li>
+              <li><a className="sproject sidebar-a" id="sproject" href="#project" ><span className="nav-indicator"></span><span className="nav-text">Projects</span></a></li>
+              <li><a className="sblogs sidebar-a" id="sblogs" href="#blogs" ><span className="nav-indicator"></span><span className="nav-text">Blogs</span></a></li>
             </ul>
           </nav>
         </aside>
