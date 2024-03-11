@@ -1,7 +1,7 @@
-body{
+#root{
     background-color: #191919;
     color:white;
-    font-family: "Poppins",sans-serif;
+    font-family: "Fira Code", sans-serif;
 }
 .content{
     margin-left: 22vw;
@@ -23,14 +23,15 @@ section{
 }
 .heading{
     font-size: 3.5em;
+    font-family: "Poppins",sans-serif;
     color:#23BEEF ;
     margin-top: 0;
 }
-p{
-    font-family: "Fira Code", sans-serif;
+h4{
+    font-weight: normal; 
 }
 .home > p{
-    width: 40%;
+    width: 40vw;
     text-align: justify;
 }
 .about > p{
@@ -229,4 +230,48 @@ p{
   flex-direction: column;
   width: 20rem;
   height: 7rem;
+}
+
+
+@media only screen and (max-width: 950px){
+    body{
+	font-size:.6rem;
+    }
+     .desig{
+	font-size:1rem;
+    }
+    .heading{
+	font-size:1.8rem;
+    }
+    .resume-btn{
+	width: 5rem;
+	height:2rem;
+	display: flex;
+	align-items: center;
+    }
+    .resume-btn > img{
+	width: 1.2rem;
+	margin-left: .2rem;
+    }
+    .nav-text{
+	content:"";
+    }
+    .social-img{
+	width:1rem;
+	height:1rem;
+	margin-right: 1rem;
+    }
+    .content{
+	margin-left: 10vw;
+    }
+    .sidebar-list{
+	display:none;
+    }
+    .desc-p, .home >p{
+	width:70vw;
+    }
+    section{
+	padding-top: 15vh;
+
+    }
 }

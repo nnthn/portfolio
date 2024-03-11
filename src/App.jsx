@@ -30,10 +30,8 @@ export default function App(){
             <section className="skills" id="skills">
               <h3 className="desig">My</h3>
               <h2 className="heading">Skills</h2>
-              <p className="desc-p">
-                <h4>Here are a few technologies that i have worked with recently</h4>
-                <Skills />
-              </p>
+              <h4>Here are a few technologies that i have worked with recently</h4>
+              <Skills />
             </section>
             <section className="project" id="project"> will be here shortly....</section>
             <section className="blogs" id="blogs"> will be here shortly....</section>
