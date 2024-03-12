@@ -8,7 +8,7 @@ export default function Socials(){
     return (
         <aside className="socials">
           <nav>
-            <ul>
+            <ul className="scl-ul">
               <li><a href="https://www.instagram.com/an4nthan?igshid=MTNiYzNiMzkwZA==" target="_blank"><img className="social-img"src={insta} alt="insta img"/></a></li>
               <li><a href="https://github.com/nnthn" target="_blank"><img className="social-img"src={github} alt="git img"/></a></li>
               <li><a href="https://www.linkedin.com/in/ananthakrishnan-p-804177221" target="_blank"><img className="social-img"src={linkedin} alt="linkedin img"/></a></li>
