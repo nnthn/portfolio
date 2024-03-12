@@ -4,7 +4,8 @@
     font-family: "Fira Code", sans-serif;
 }
 .content{
-    margin-left: 22vw;
+    margin-left: 15vw;
+    width: 85vw;
     scroll-snap-type:y mandatory;
     overflow-y: scroll;
     height:100vh;
@@ -20,6 +21,7 @@ section{
 .desig{
     font-size: 1rem;
     font-family: "Fira Code", sans-serif;
+    font-weight: normal;
 }
 .heading{
     font-size: 3.5em;
@@ -33,6 +35,9 @@ h4{
 .home > p{
     width: 40vw;
     text-align: justify;
+}
+.home > a{
+    width:5rem;
 }
 .about > p{
     width: 70%;

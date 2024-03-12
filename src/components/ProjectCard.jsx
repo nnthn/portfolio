@@ -1,7 +1,7 @@
 import File from "../assets/file.svg";
 import Git from "../assets/github-pr.svg";
 import "./cards.css";
-export default function Card(){
+export default function Card(props){
     return(
         <div className="card">
           <div className="item-content">
@@ -10,8 +10,8 @@ export default function Card(){
               <img src={Git} alt="github img"/>
             </div>
             <div className="card-desc">
-              <h3>Project</h3>
-              <h4>Project desc</h4>
+              <h3>{props.Pname}</h3>
+              <h4>{props.desc}</h4>
             </div>
           </div>
         </div>

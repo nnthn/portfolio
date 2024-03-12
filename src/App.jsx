@@ -5,6 +5,7 @@ import Skills from "./components/Skills.jsx";
 import "./App.css";
 import downloadBtn from "./assets/download.svg";
 import Resume from "./assets/Ananthakrishnan_P.pdf";
+import Projects from "./components/Projects.jsx";
 
 export default function App(){
   
@@ -33,7 +34,11 @@ export default function App(){
               <h4>Here are a few technologies that i have worked with recently</h4>
               <Skills />
             </section>
-            <section className="project" id="project"> will be here shortly....</section>
+            <section className="project" id="project">
+              <h3 className="desig">My</h3>
+              <h2 className="heading">Projects</h2>
+              <Projects />
+            </section>
             <section className="blogs" id="blogs"> will be here shortly....</section>
             <section className="contact" id="contact"> will be here shortly....</section>
           </main>
