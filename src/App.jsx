@@ -39,7 +39,11 @@ export default function App(){
               <h2 className="heading">Projects</h2>
               <Projects />
             </section>
-            <section className="blogs" id="blogs"> will be here shortly....</section>
+            <section className="blogs" id="blogs"> 
+              <h3 className="desig">My</h3>
+              <h2 className="heading">Blogs</h2>
+              <h4>Not quite sure where to start...but i'll just try something</h4>
+            </section>
             <section className="contact" id="contact"> will be here shortly....</section>
           </main>
           <Socials />

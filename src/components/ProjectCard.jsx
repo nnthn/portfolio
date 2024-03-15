@@ -10,8 +10,11 @@ export default function Card(props){
               <img src={Git} alt="github img"/>
             </div>
             <div className="card-desc">
-              <h3>{props.Pname}</h3>
-              <h4>{props.desc}</h4>
+              <div>
+                <h3>{props.Pname}</h3>
+                <h4>{props.desc}</h4>
+              </div>
+              <h4 className="langs">{props.lan}</h4>
             </div>
           </div>
         </div>
