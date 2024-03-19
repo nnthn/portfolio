@@ -39,12 +39,13 @@
 }
 .Ui-img{
     width:25rem;
-    
+    border-radius: .8rem .8rem 0 0;
 }
 .ui-title{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 0;
 }
+
 @media(max-width:600px){
     .card{
 	min-width: 10rem;
