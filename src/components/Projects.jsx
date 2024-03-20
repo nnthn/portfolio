@@ -16,7 +16,7 @@ export default function Projects(){
           <h3 className="sub-title">UI/UX</h3>
           <div className="projects-container">
             <Uicard title="Attendify" img={attimg}/>
-            <Uicard title="Smart Pay" img={attimg}/>
+            <Uicard title="Smart Pay" img={smartpay}/>
           </div>
         </div>
     );
