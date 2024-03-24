@@ -40,7 +40,7 @@
     align-items: center;
     justify-content: center;
 }
-@media(max-width: 600px){
+@media(max-width: 950px){
     .socials ul{
 	flex-direction: row;
 	margin-left: 10vw;

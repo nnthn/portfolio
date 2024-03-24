@@ -1,5 +1,6 @@
 .card{
     background-color:#263134 ;
+    text-align: start;
     min-width:20rem;
     max-height: 35rem;
     display:inline-block;
@@ -8,6 +9,9 @@
     padding: 2rem;
     border-radius: .5rem;
     margin-left: 2rem;
+}
+card-a{
+    
 }
 .projects-container{
     width:74vw;
@@ -42,6 +46,7 @@
 .ui-title{
     margin-top: 1rem;
     margin-inline:1rem;
+    margin-right: 0;
 }
 .figma{
     margin-inline:1rem;
@@ -52,6 +57,8 @@
 }
 .ui-desc{
     margin-inline:1rem;
+    max-width: 22rem;
+    margin-right: 0;
 }
 @media(max-width:600px){
     .card{
