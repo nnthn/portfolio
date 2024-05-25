@@ -2,6 +2,7 @@ import React from 'react';
 import Socials from "./components/Socials.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Skills from "./components/Skills.jsx";
+import Blogs from "./components/Blogs.jsx";
 import "./App.css";
 import downloadBtn from "./assets/download.svg";
 import Resume from "./assets/Ananthakrishnan_P.pdf";
@@ -43,7 +44,7 @@ export default function App(){
             <section className="blogs" id="blogs"> 
               <h3 className="desig">My</h3>
               <h2 className="heading">Blogs</h2>
-              <h4>Not quite sure where to start...but i'll just try something</h4>
+              <Blogs />
             </section>
             <section className="contact" id="contact"> will be here shortly....</section>
           </main>

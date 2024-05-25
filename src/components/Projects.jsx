@@ -8,7 +8,7 @@ export default function Projects(){
         <div>
           <h3 className="sub-title">Software</h3>
           <div className="projects-container">
-            <Card Pname="Smart Pay" desc="A billing app" lan="Dart" href="https://github.com/nnthn/smartPay" />
+            <Card Pname="Smart Pay" desc="A billing app on android" lan="Dart" href="https://github.com/nnthn/smartPay" />
             <Card Pname="Attendify" desc="An attendance manager" lan="Js html css" href="https://github.com/nnthn/attendance-app"/>
             <Card Pname="Hotel Manager" desc="A hotel booking app" lan="html css" href="https://github.com/nnthn/mini-project"/>
             <Card Pname="Demand forecasting" desc="Under development" lan="python html css js" href="https://github.com/nnthn/main-project"/>

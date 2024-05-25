@@ -63,6 +63,7 @@ card-a{
 @media(max-width:600px){
     .card{
 	min-width: 10rem;
+	min-height: 18rem;
     }
     .uicard{
 	width:15rem;
